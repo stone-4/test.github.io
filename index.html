@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Librería M.E.S.H.</title>
+	<link rel="shortcut icon" href="iconos/favicon.ico">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="estilos/estilos.css">
+	
+</head>
+<body>
+	<header>
+		<div>
+			<h1 id="titulo_principal">Librería M.E.S.H.</h1>
+			<nav>
+				<form action="" id="form">
+					<input type="button" id="btn_buscar" onclick="buscar()" value="¿Desea buscar algo?" />
+					<input type="search" name="buscar" id="caja_buscar" placeholder="¿Qué desea buscar hoy?" hidden="true" required />
+				</form>
+
+				<!-- DESORDENADO POR QUE SE GENERABAN ESPACIOS -->
+
+				<ul id="lista_desordenada">					
+					<li>
+						<div>
+							<a href="#">Categorías</a>
+							<ul>
+								<li>Tecnología</li>
+								<li>Abarrotes</li>
+								<li>Diseño y Moda</li>
+							</ul>
+						</div></li>
+					<li>
+						<div>
+							<a href="#">Preguntas Frecuentes</a>
+						</div></li>
+					<li>
+						<div>
+							<a href="#">Trabaja con Nosotros</a>
+							<ul>
+								<li>Personal CAS</li>
+								<li>Prácticas Pre Profesionales</li>
+							</ul>
+						</div></li>
+					<li>
+						<div>
+							<a href="#">Acerca de la Empresa</a>
+						</div></li>
+					<li>
+						<div>
+							<a href="#">Ir a la página amiga</a>
+						</div>
+					</li>						
+				</ul>	
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section id="section_contenido">			
+			<fieldset id="fieldset_productos" class="fieldsets">
+				<legend>Productos</legend>
+				<ul id="lista_productos">
+					<li>
+						<img src="imgs/cuaderno.jpg" alt="Producto cuaderno">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolor sapiente praesentium tempore hic tenetur aspernatur veritatis.</p>
+					</li>
+					<li>
+						<img src="imgs/lapicero.jpg" alt="Producto lapicero">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolor sapiente praesentium tempore hic tenetur aspernatur veritatis.</p>
+					</li>
+					<li>
+						<img src="imgs/cartuchera.jpg" alt="Producto cartuchera">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolor sapiente praesentium tempore hic tenetur aspernatur veritatis.</p>
+					</li>
+					<li>
+						<img src="imgs/mochila.jpg" alt="Producto mochila">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolor sapiente praesentium tempore hic tenetur aspernatur veritatis.</p>
+					</li>
+					<li>
+						<img src="imgs/vinifan.jpg" alt="Producto vinifan">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolor sapiente praesentium tempore hic tenetur aspernatur veritatis.</p>
+					</li>
+					<li>
+						<img src="imgs/folder.jpg" alt="Producto folder">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolor sapiente praesentium tempore hic tenetur aspernatur veritatis.</p>
+					</li>
+				</ul>			
+			</fieldset>			
+			<fieldset class="fieldsets">
+				<legend>Pre-visualización</legend>
+				<video controls  muted loop>
+					<source src="videos/Chop_Suey_tongue.mp4" type="video/mp4" />
+				</video>
+			</fieldset>
+			<fieldset class="fieldsets">
+				<legend>Ubicación</legend>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4641.382327271401!2d-77.07986907241768!3d-11.979915551589565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105cffec30729c9%3A0x840a0280accdeb5d!2sSISOL%20SALUD%20LOS%20OLIVOS!5e0!3m2!1ses-419!2spe!4v1623860046647!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!4v1623860186604!6m8!1m7!1s_DelAdoyqtQE3xo-DqsLCg!2m2!1d-11.97933457002292!2d-77.07711616822235!3f115.97813370601502!4f-0.5351227320182375!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</fieldset>
+			<img id="moneda-gif" src="https://media.tenor.com/images/9f42f9ea5723d6319c7861cc3e7d57e7/tenor.gif" alt="moneda">	
+		</section>
+	</main>
+
+	<footer>
+		<div id="footer-contenedor-enlaces">
+			<div class="footer-column">
+				<span>¿Quiénes somos?</span>
+				<ul>				
+					<li>Historia</li>
+					<li>Ayuda</li>
+					<li>Nuevos Términos de Uso y Condiciones de Entrega</li>
+					<li>Envío en 24 horas</li>
+					<li>Developers</li>
+				</ul>
+			</div>
+			<div class="footer-column">
+				<span>Contactos</span>
+				<ul>
+					<li>Preguntas Frecuentes</li>
+					<li>Contacto</li>
+					<li>Formas de Pago</li>
+					<li>Política de Garantía y Devoluciones</li>
+					<li>Aviso de Privacidad</li>
+				</ul>
+			</div>
+			<div class="footer-column">
+				<span>Eventos</span>
+				<ul>
+					<li>Días Naranja</li>
+					<li>Aniversario Linio Perú</li>
+					<li>CMR days</li>
+					<li>Supermercado</li>
+				</ul>
+			</div>
+			<div class="footer-column">
+				<span>Redes Sociales</span>
+				<ul id="redes-sociales">
+					<li><img src="iconos/fb.png" alt="Logo de Facebook"></li>
+					<li><img src="iconos/inst.png" alt="Logo de Instagram"></li>
+					<li><img src="iconos/yt.png" alt="Logo de Youtube"></li>
+				</ul>
+			</div>		
+		</div>
+ 		<div id="footer-contenedor-creditos">
+			<div id="footer-creditos">
+				<p id="copyrigth">Todo los derechos reservados <a href="#" onclick="window.open(this.href,'_blank'); return false">"M.E.S.H."</a>, 2021</p>
+				<p>Desarrollado por "Goguma's Solution"</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/funcionalidad.js"></script>
+</body>
+</html>
+
+<!---
+
+DIV: Caja contenedora que permite agrupar elementos, este contenedor no tiene un significado semántico.
+
+HEADER: Agrupa los elementos de cabecera, tiene un significado semántico, y pueden haber mas de uno dentro de una página web.
+
+FOOTER: Agrupa elementos que se situan en el pie de la pagina web, tiene un significado semántico, y pueden haber mas de uno dentro de la página web.
+
+NAV: Es el contenedor de los elementos de la barra principal de navegacion de la página web, tiene un significado semántico, y puede haber mas de uno dentro de la página web.
+
+ARTICLE: Es un contenedor de elementos, que si los retiramos de la página web, estos tienen sentido o coherencia propia. Tiene un significado semántico, y puede haber mas de uno dentro de la página web.
+
+SECTION: Es un contenedor de elementos de una sección específica de la página web, tiene un significado semántico, y pueden haber mas de uno dentro de la página.
+
+ASIDE: Es un contenedor de elementos complementarios no fundamentales dentro de la página web. Si los retiramos, no afectarían en el funcionamiento principal del sitio web.
+
+MAIN: Es un contenedor de elementos que almacena toda la información principal del sitio web, debe tener un contenido único por página, la información dentro no debe de repetirse en otros archivos dentro del sitio web.
+
+-->
