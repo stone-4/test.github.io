@@ -391,7 +391,7 @@ footer #footer-contenedor-creditos #footer-creditos p a{
 	@media screen and (max-width: 370px) {	
 
 		#form #caja_buscar {
-			width: 185px;
+			width: 180px;
 		}
 		
 		#lista_productos li {	
